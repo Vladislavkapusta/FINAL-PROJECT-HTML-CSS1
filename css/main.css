@@ -9,6 +9,7 @@ body {
 	color: #2D3049;
 	letter-spacing: 0.05em;
 	background-image: url("../img/white-needle.png");
+	overflow: hidden;
 }
 /* -----------------------------------------------------------------------Шапочка--------------------------------------------------------------------  */
 
@@ -781,6 +782,9 @@ font-size: 35px;
 }
 .story-content__item{
 	font-size: 12px;
+}
+body{
+	overflow:visible;
 }
 }
 @media screen and (max-width: 385px) {
